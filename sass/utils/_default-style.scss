@@ -1,0 +1,28 @@
+%contacts {
+    padding: 0;
+    width: auto;
+}
+
+%list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+%section-text {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    color: $main-text-color;
+    letter-spacing: 0.02em;
+}
+
+%section-caption {
+    margin: 0;
+    padding: 0;
+}
+
+%main-text {
+    margin: 0;
+    padding: 0;
+}

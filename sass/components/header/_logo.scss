@@ -1,0 +1,51 @@
+/* *--------Logo  Web та Studio-------- */
+
+.main-nav>a {
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+    position: relative;
+}
+
+.item>.current::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--accent-page-color);
+}
+
+.link-logo,
+.link-header-studio {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+
+    text-transform: uppercase;
+}
+
+.link-logo {
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+
+.item-list {
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+
+.navigation .link-logo {
+    color: var(--accent-color);
+}
+
+.site-nav .link-logo-item {
+    color: var(--accent-color);
+}

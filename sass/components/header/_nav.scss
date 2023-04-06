@@ -1,0 +1,85 @@
+/**-------------------- Main nav----------------- */
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.navigation .main-nav {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.site-nav {
+    display: flex;
+    margin-left: 76px;
+}
+
+.main-adress {
+    display: flex;
+    margin-left: auto;
+}
+
+.site-nav .item+.item {
+    margin-left: 40px;
+}
+
+.site-nav .item-list {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.link-header-studio,
+.link-logo-item {
+    color: var(--title-text-color);
+}
+
+
+/* ----------------Навігація---------------- */
+.navigation {
+    color: var(--title-text-color);
+}
+
+.site-nav,
+.link-contact,
+.link.current {
+    color: var(--accent-page-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.site-nav .link .item-list.current {
+    color: var(--title-text-color);
+}
+
+.adress-list .link-contact {
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.adress-list {
+    font-style: normal;
+}
+
+.site-nav .item-list {
+    color: var(--title-text-color);
+}
+
+.site-nav .item-list {
+    text-decoration: none;
+}
+
+.item-list {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.item-list:hover,
+.item-list:focus {
+    color: var(--accent-page-color);
+}
