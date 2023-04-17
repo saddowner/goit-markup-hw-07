@@ -1,0 +1,22 @@
+
+.mobile-social-list {
+  display: flex;
+
+  line-height: 1;
+  gap: 56px;
+}
+
+.mobile-social-list-icon {
+  width: 40px;
+  height: 40px;
+
+  fill: var(--button-bar--iris);
+
+  transition: fill 250ms var(--cubic-bezier);
+
+  &:hover, &:focus {
+    fill: var(--active-button-bar--ocean);
+  }
+}
+
+
